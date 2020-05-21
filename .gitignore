@@ -1,0 +1,6 @@
+*.user
+*.suo
+[Bb]in/
+[Oo]bj/
+.vs/
+assets/
