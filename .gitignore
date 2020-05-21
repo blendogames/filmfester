@@ -1,6 +1,6 @@
 *.user
 *.suo
-[Bb]in/
+filmfester/bin/
 [Oo]bj/
 .vs/
 assets/
