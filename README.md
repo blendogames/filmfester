@@ -3,6 +3,8 @@
 ## About
 I organized and ran a small online student film festival, and made this program to help automate the intermission screens.
 
+Here is [a short writeup about how the festival was run](http://blendogames.com/news/post/2020-05-21-film-festival).
+
 [![screenshot of Filmfester](screenshot.png)](screenshot.png)
 
 Film Fester is a basic control board for managing on-screen text & countdown timer, and is designed to hook into [OBS Studio](https://obsproject.com). It was used to automate the intermission screens between each film, where we displayed:
