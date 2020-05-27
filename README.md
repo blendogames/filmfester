@@ -1,4 +1,5 @@
 ﻿# Film Fester
+[![Release](https://img.shields.io/github/release/blendogames/filmfester.svg)](https://github.com/blendogames/filmfester/releases)
 
 ## About
 I organized and ran a small online student film festival, and made this program to help automate the intermission screens.
