@@ -246,6 +246,9 @@ namespace filmfester
         private void button8_Click(object sender, EventArgs e)
         {
             totalTime -= 30;
+
+            if (totalTime < 0)
+                totalTime = 0;
         }
 
         private void WriteToTextfile(string filePath, string text)
