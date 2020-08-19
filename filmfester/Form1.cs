@@ -181,7 +181,10 @@ namespace filmfester
             dataGridView1.SelectedRows[0].Cells[0].Style.BackColor = Color.GreenYellow;
             //dataGridView1.SelectedRows[0].HeaderCell.Style.Font = new Font("Microsoft Sans Serif", 10.75F, FontStyle.Bold);
 
-            textBox_upnext.Text = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();            
+            string text = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
+            text = text.Replace("\n", Environment.NewLine);
+
+            textBox_upnext.Text = text;
         }
 
         private void button2_Click(object sender, EventArgs e)
